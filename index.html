@@ -35,20 +35,22 @@
     <!--features are just like fCC model, but fontawesome icon can go to top of paragraph rather than just disappearing on small screens-->
     <section class="feature-box-container" id="features">
         <div class="feature-box" id="feature-1">
-            <h2 class="feature-idea">Never Gonna Give You Up</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus, quidem.</p>
+            <h2 class="feature-idea">Experience</h2>
+            <p>We're no strangers to love. You know the rules and so do we, with over 7 years of business experience</p>
         </div>    
         <div class="feature-box" id="feature-2">
-            <h2 class="feature-idea">Never Gonna Let You Down</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus, quidem.</p>
+            <h2 class="feature-idea">Satisfaction</h2>
+            <p>A full commitment's what we're thinking of. You wouldn't get this from any other bot, max love with minimal trauma*. Plus, a 180 day refund-guarantee*!</p>
+            <p class="asterisk-text">*Refunds only given for damage of bot, not for damage to user</p>
         </div>
         <div class="feature-box" id="feature-3">
-            <h2 class="feature-idea">Never Gonna Run Around And Desert you</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus, quidem.</p>
+            <h2 class="feature-idea">Innovation</h2>
+            <p>Don't tell us you're too blind to see. Your heart's been aching ever since your ex left you but you're too shy to say it. And we're here to profit.</p>
         </div>
     </section>
 
     <section class="demo-vid" id="demo">
+        <p class="video-title">Observe how fluid and realistic the RA-dQw4 looks!</p>
         <iframe type="video/webm" src="https://www.youtube.com/watch?v=dQw4w9WgXcQ" allowfullscreen=""></iframe>
     </section>
 
@@ -56,24 +58,57 @@
 
     <section class="tiers-wrapper" id="tiers">
         <div class="tiers-child">
-            <h2 class="tier-title">Tier replaceMe 1</h2>
-            <p class="pricing">$5000</p>
-            <p class="tier-description">Does drugs with you</p>
+            <h2 class="tier-title">Bronze Tier</h2>
+            <p class="tier-subtext">Never Gonna Give You Up</p>
+            <p class="pricing">$3999</p>
+            <p class="tier-description">Our most affordable bot, will make you cry by fulfilling the emotional void left inside you from a neglected childhood and substituting as a pseudo-parental role as you begin dating with a wonderful honeymoon phase to what is an emotionless cold-calculated software</p>
         </div>
         <div class="tiers-child">
-            <h2 class="tier-title">Tier replaceMe 2</h2>
-            <p class="pricing">$50000</p>
-            <p class="tier-description">Will go on dates once a month</p>
+            <h2 class="tier-title">Silver Tier</h2>
+            <p class="tier-subtext">Never Gonna Let You Down<p>
+            <p class="pricing">$6999</p>
+            <p class="tier-description">Our most popular bot, will say goodbye to all your problems solving them by <span class="bloody-text">any means</span> as you become overly reliant on RA-dQw4 and become what feels like a life-long loyal customer as you become settled in your relationship</p>
         </div>
         <div class="tiers-child">
-            <h2 class="tier-title">Tier replaceMe 3</h2>
-            <p class="pricing">$500000</p>
-            <p class="tier-description">Won't hit on other men</p>
+            <h2 class="tier-title">Gold Tier</h2>
+            <p class="tier-subtext">Never Gonna Run Around And Desert you</p>
+            <p class="pricing">$9999</p>
+            <p class="tier-description">For the hardcore fans of RA-dQw4, pre-installed with software that will tell a lie and hurt you as you complete the course of a relationship, breaking up with the RA-dQw4 and prepare for new love with another one of our products</p>
         </div>
     </section>
 
     <form>
-        <!--have user's name, email, phone, tier selector, and specifications/comments box w/ button that takes you to order page. have warning *must be 13 or older to order.-->
+        <div class="form-question">
+            <label for="customer-name">Full Name:</label>
+            <input type="text" id="customer-name" name="customer-name" required>
+        </div>
+        <div class="form-question">
+            <label for="customer-email">E-mail:</label>
+            <input type="email" id="customer-email" name="customer-email" required>
+        </div>
+        <div class="form-question">
+            <label for="customer-phone">Phone Number <span class="assist-text">(Optional)</span>:</label>
+            <input type="tel" id="customer-phone" name="customer-phone">
+        </div>
+        <div class="form-question">
+            <label for="order-tier">Tier:</label>
+            <select id="order-tier" name="order-tier" required>
+                <option value="">--Please select a tier--</option>
+                <option value="bronze-tier">Bronze Tier</option>
+                <option value="silver-tier">Silver Tier</option>
+                <option value="gold-tier">Gold Tier</option>
+            </select>
+        </div>
+        <div class="form-question">
+            <label for="order-specifications">Any special instructions for the order?</label>
+            <textarea id="order-specifications" name="order-specifications" rows="5" cols="100%" placeholder="Type specifications here..."></textarea>
+        </div>
+        <div class="age-confirmation">
+            <input type="checkbox" id="age-18" name="age-18" required autocomplete="off"></input>
+            <label for="age-18">I understand that I must be 18 or older with no addiction-record to order an RA-dQw4</label>
+            <input type="checkbox" id="joke-warning" name="joke-warning" required autocomplete="off"></input>
+            <label for="joke-warning">I understand that this webpage is satire and no actual order will be placed upon clicking "submit"</label>
+        <button class="submit" type="submit">Proceed to Payment</button>
     </form>
 
 </main>
@@ -90,7 +125,8 @@
             </li>
             <li>
                 <a href="">No Soliciting</a>
-            </li><li>
+            </li>
+            <li>
                 <a href="">Bathroom</a>
             </li>
         </ul>
