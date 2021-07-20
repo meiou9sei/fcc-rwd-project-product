@@ -103,11 +103,15 @@
             <label for="order-specifications">Any special instructions for the order?</label>
             <textarea id="order-specifications" name="order-specifications" rows="5" cols="100%" placeholder="Type specifications here..."></textarea>
         </div>
-        <div class="age-confirmation">
-            <input type="checkbox" id="age-18" name="age-18" required autocomplete="off"></input>
-            <label for="age-18">I understand that I must be 18 or older with no addiction-record to order an RA-dQw4</label>
-            <input type="checkbox" id="joke-warning" name="joke-warning" required autocomplete="off"></input>
-            <label for="joke-warning">I understand that this webpage is satire and no actual order will be placed upon clicking "submit"</label>
+        <div class="status-confirmation">
+            <div class="confirmation-child">
+                <input type="checkbox" id="age-18" name="age-18" required autocomplete="off"></input>
+                <label for="age-18">I understand that I must be 18 or older with no addiction-record to order an RA-dQw4</label>
+            </div>
+            <div class="confirmation-child">
+                <input type="checkbox" id="joke-warning" name="joke-warning" required autocomplete="off"></input>
+                <label for="joke-warning">I understand that this webpage is satire and no actual order will be placed upon clicking "submit"</label>
+            </div>
         <button class="submit" type="submit">Proceed to Payment</button>
     </form>
 
