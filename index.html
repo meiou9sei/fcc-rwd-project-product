@@ -17,6 +17,7 @@
         <div class="logo">
             <img id="walmart-logo" src="assets/images/walmartlogo.png" alt="Walmart Logo">
         </div>
+            <input id="global-search-input" type="text" placeholder="Search Walmart.com" name="product-search" >
         <nav>
             <ul class="nav-links">
                 <li><a href="features">Features</a></li>
@@ -39,27 +40,44 @@
 
     <!--features are just like fCC model, but fontawesome icon can go to top of paragraph rather than just disappearing on small screens-->
     <section class="feature-box-container" id="features">
+        <div class="introducing-the-bot bigger-text">
+            <p>That's right. We brought back the beloved, classic, original series celebrity-bot.</p>
+            <p><b>Version dQw4</b> introduces brand new features to our celebrity-bots, and is completely bug-free*.</p>
+            <p class="line-height-small"><small>*Accidental murder bug has been patched. Probably. We're not sure how but something worked and we're not touching that code again.</small></p>
+        </div>
         <div class="feature-box" id="feature-1">
-            <span class="fas fa-briefcase"></span>
-            <h2 class="feature-idea">Experience</h2>
-            <p>We're no strangers to love. You know the rules and so do we, with over 7 years of business experience</p>
+            <div class="icon">
+                <span class="fas fa-briefcase"></span>
+            </div>
+            <div class="desc">
+                <h2 class="feature-idea">Experience</h2>
+                <p>We're no strangers to love. You know the rules and so do we, with over 7 years of business experience</p>
+            </div>
         </div>    
         <div class="feature-box" id="feature-2">
-            <span class="far fa-smile-wink"></span>
-            <h2 class="feature-idea">Satisfaction</h2>
-            <p>A full commitment's what we're thinking of. You wouldn't get this from any other bot, max love with minimal trauma*. Plus, a 180 day refund-guarantee*!</p>
-            <p class="asterisk-text">*Refunds only given for damage of bot, not for damage to user</p>
+            <div class="icon">
+                <span class="far fa-smile-wink"></span>
+            </div>
+            <div class="desc">
+                <h2 class="feature-idea">Satisfaction</h2>
+                <p>A full commitment's what we're thinking of. You wouldn't get this from any other bot, max love with minimal trauma*. Plus, a 180 day refund-guarantee*!</p>
+                <p class="asterisk-text">*Refunds only given for damage of bot, not for damage to user</p>
+            </div>
         </div>
         <div class="feature-box" id="feature-3">
-            <span class="fas fa-magic"></span>
-            <h2 class="feature-idea">Innovation</h2>
-            <p>Don't tell us you're too blind to see. Your heart's been aching ever since your ex left you but you're too shy to say it. And we're here to profit.</p>
+            <div class="icon">
+                <span class="fas fa-magic"></span>
+            </div>
+            <div class="desc">
+                <h2 class="feature-idea">Innovation</h2>
+                <p>Don't tell us you're too blind to see. Your heart's been aching ever since your ex left you but you're too shy to say it. And we're here to profit.</p>
+            </div>
         </div>
     </section>
 
     <section class="demo-vid" id="demo">
-        <p class="video-title">Observe how fluid and realistic the RA-dQw4 looks!</p>
-        <iframe type="video/webm" src="https://www.youtube.com/watch?v=dQw4w9WgXcQ" allowfullscreen=""></iframe>
+        <p class="video-title bigger-text">Observe how fluid and realistic the RA-dQw4 looks!</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </section>
 
 <!--tiers use flex and can collapse-->
