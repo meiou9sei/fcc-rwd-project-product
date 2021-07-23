@@ -6,44 +6,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Architects+Daughter&family=Montserrat&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="/assets/stylesheets/main.css">
     <title>BF Model RA-dQw4</title>
+    <script src="https://kit.fontawesome.com/bbfc4301ee.js" crossorigin="anonymous"></script>
 </head>
 <body>
-<main>
 
-    <header> <!-- sticky this later to be at top of page-->
+    <header class="nav-header"> <!-- sticky this later to be at top of page-->
         <div class="logo">
-            <img src="assets/images/walmartlogo.png" alt="Walmart Logo">
+            <img id="walmart-logo" src="assets/images/walmartlogo.png" alt="Walmart Logo">
         </div>
         <nav>
-            <ul>
+            <ul class="nav-links">
                 <li><a href="features">Features</a></li>
                 <li><a href="demo">Demo</a></li>
                 <li><a href="tiers">Tiers</a></li>
-                <li><a href="order-form">order</a></li>                    
+                <li><a href="order-form">Order</a></li>                    
             </ul>
         </nav>
     </header>
 
+<main>
     <header class="product-intro">
-        <h1 id="product-name">The Boyfriend Model RA-dQw4</h1>
-        <p id="product-name-subtext"><i>You wouldn't get this from any other bot</i></p>
+        <div class="product-intro-container">
+            <h1>Meet Your New Boyfriend</h1>
+            <p id="the">the <span id="rick-astley">RA-dQw4</span></p>
+            <p id="product-name-subtext"><i>You wouldn't get this from any other bot</i></p>
+        </div>
+        <i id="chevron" class="fas fa-chevron-down"></i>
     </header>
 
     <!--features are just like fCC model, but fontawesome icon can go to top of paragraph rather than just disappearing on small screens-->
     <section class="feature-box-container" id="features">
         <div class="feature-box" id="feature-1">
+            <span class="fas fa-briefcase"></span>
             <h2 class="feature-idea">Experience</h2>
             <p>We're no strangers to love. You know the rules and so do we, with over 7 years of business experience</p>
         </div>    
         <div class="feature-box" id="feature-2">
+            <span class="far fa-smile-wink"></span>
             <h2 class="feature-idea">Satisfaction</h2>
             <p>A full commitment's what we're thinking of. You wouldn't get this from any other bot, max love with minimal trauma*. Plus, a 180 day refund-guarantee*!</p>
             <p class="asterisk-text">*Refunds only given for damage of bot, not for damage to user</p>
         </div>
         <div class="feature-box" id="feature-3">
+            <span class="fas fa-magic"></span>
             <h2 class="feature-idea">Innovation</h2>
             <p>Don't tell us you're too blind to see. Your heart's been aching ever since your ex left you but you're too shy to say it. And we're here to profit.</p>
         </div>

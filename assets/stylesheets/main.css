@@ -51,13 +51,122 @@ table {
 
 
 /****************************************
-    Boxes
+    Boxes and Colors
 *****************************************/
+
+body {
+	background-image: url(/assets/images/prettysky.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom center;
+}
+
+.nav-header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: rgb(255, 255, 255);
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px;
+	z-index: 1000;
+}
+
+#walmart-logo {
+	height: 50px;
+	cursor: pointer;
+}
+
+nav {
+	margin-right: 10px;
+}
+
+nav li {
+	display: inline-block;
+	padding: 0px 15px;
+	justify-content: space-between;
+}
+
+main {
+	margin-top: 85px;	
+}
+
+.product-intro {
+	height: 90vh;
+	position: relative;
+}
+
+.product-intro-container {
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	transform: translateY(-50%);
+}
+
+p#the {
+	padding: 75px;
+}
+
+#chevron {
+	position: absolute;
+	top: 90%;
+	color:hsla(263, 93%, 23%)
+}
+
+.tiers-child {
+	border: solid;
+	border-radius: 5px;
+	border-color: #004f54;
+}
 
 /****************************************
     Font
 Permanent Marker for titles, Roboto for description text. 
+font-family: 'Architects Daughter', cursive;
 font-family: 'Permanent Marker', cursive;
-font-family: 'Roboto', sans-serif;
+font-family: 'Montserrat', sans-serif;
 *****************************************/
 
+body {
+	font-family: 'Monteserrat', sans-serif;
+}
+
+h1, .product-intro {
+	text-align: center;
+}
+
+h1 {
+	font-family: 'Architects Daughter', cursive;
+	font-size: 48px;
+}
+
+p#the {
+	font-family: 'Architects Daughter', cursive;
+	font-size: 24px;
+}
+
+span#rick-astley {
+	font-family: 'Architects Daughter', cursive;
+	font-size: 96px;
+	color: rgb(255, 0, 179);
+}
+
+.far, .fas {
+	font-size: 50px;
+	color: #2e0470;
+}
+
+h2 {
+	font-family: 'Architects Daughter', cursive;
+	font-size: 36px;
+}
+
+p#product-name-subtext {
+	font-size: 36px;
+	font-family: 'Architects Daughter', cursive;
+}
+
+i {
+	font-style: italic;
+}
