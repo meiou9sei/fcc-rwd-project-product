@@ -55,7 +55,7 @@ table {
 *****************************************/
 
 body {
-	background-image: url(assets/images/prettysky.jpg);
+	background-image: url(../images/prettysky.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: bottom center;
