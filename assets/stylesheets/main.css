@@ -430,6 +430,14 @@ html {
 	scroll-padding-top: 20rem;
 }
 
+main {
+	margin-top: 150px;
+}
+
+.product-intro {
+	height: 65vh;
+}
+
 .nav-header {
 	flex-direction: column;
 	padding: 10px 0;
