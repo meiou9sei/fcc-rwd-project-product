@@ -73,6 +73,7 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: bottom center;
+	position: relative;
 }
 
 .nav-header {
