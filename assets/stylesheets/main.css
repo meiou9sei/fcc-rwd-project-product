@@ -123,7 +123,7 @@ main {
 }
 
 .product-intro {
-	height: 90vh;
+	height: 100vh;
 	position: relative;
 }
 
@@ -144,6 +144,7 @@ p#the {
 	color: #00588b;
 	width: 100%;
 	left: 0px;
+	text-align: center;
 }
 
 .feature-box-container {
@@ -450,6 +451,14 @@ p#product-name-subtext {
 p#the {
 	padding: 35px;
 	line-height: 1;
+}
+
+span#rick-astley {
+	font-size: 8rem;
+}
+
+#chevron {
+	position: static;
 }
 
 .feature-box {
