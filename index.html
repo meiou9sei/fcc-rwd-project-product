@@ -20,10 +20,10 @@
             <input id="global-search-input" type="text" placeholder="Search Walmart.com" name="product-search" >
         <nav>
             <ul class="nav-links">
-                <li><a href="features">Features</a></li>
-                <li><a href="demo">Demo</a></li>
-                <li><a href="tiers">Tiers</a></li>
-                <li><a href="order-form">Order</a></li>                    
+                <li><a href="#features">Features</a></li>
+                <li><a href="#demo">Demo</a></li>
+                <li><a href="#tiers">Tiers</a></li>
+                <li><a href="#order-form">Order</a></li>                    
             </ul>
         </nav>
     </header>
@@ -39,7 +39,7 @@
     </header>
 
     <!--features are just like fCC model, but fontawesome icon can go to top of paragraph rather than just disappearing on small screens-->
-    <section class="feature-box-container" id="features">
+    <section class="feature-box-container anchor" id="features">
         <div class="introducing-the-bot bigger-text">
             <p>That's right. We brought back the beloved, classic, original series celebrity-bot.</p>
             <p><b>Version dQw4</b> introduces brand new features to our celebrity-bots, and is completely bug-free*.</p>
@@ -75,51 +75,52 @@
         </div>
     </section>
 
-    <section class="demo-vid" id="demo">
+    <section class="demo-vid anchor" id="demo">
         <p class="video-title bigger-text">Observe how fluid and realistic the RA-dQw4 looks!</p>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </section>
 
 <!--tiers use flex and can collapse-->
 
-    <section class="tiers-wrapper" id="tiers">
-        <div class="tiers-child">
+    <section class="tiers-wrapper anchor" id="tiers">
+        <div class="tiers-child" id="bronze-tier-title">
             <h2 class="tier-title">Bronze Tier</h2>
-            <p class="tier-subtext">Never Gonna Give You Up</p>
-            <p class="pricing">$3999</p>
+            <p class="tier-subtext"><i>Never Gonna Give You Up</i></p>
+            <h3 class="pricing">$3999</h3>
             <p class="tier-description">Our most affordable bot, will make you cry by fulfilling the emotional void left inside you from a neglected childhood and substituting as a pseudo-parental role as you begin dating with a wonderful honeymoon phase to what is an emotionless cold-calculated software</p>
         </div>
-        <div class="tiers-child">
+        <div class="tiers-child" id="silver-tier-title">
             <h2 class="tier-title">Silver Tier</h2>
-            <p class="tier-subtext">Never Gonna Let You Down<p>
-            <p class="pricing">$6999</p>
+            <p class="tier-subtext"><i>Never Gonna Let You Down</i><p>
+            <h3 class="pricing">$6999</h3>
             <p class="tier-description">Our most popular bot, will say goodbye to all your problems solving them by <span class="bloody-text">any means</span> as you become overly reliant on RA-dQw4 and become what feels like a life-long loyal customer as you become settled in your relationship</p>
         </div>
-        <div class="tiers-child">
+        <div class="tiers-child" id="gold-tier-title">
             <h2 class="tier-title">Gold Tier</h2>
-            <p class="tier-subtext">Never Gonna Run Around And Desert you</p>
-            <p class="pricing">$9999</p>
+            <p class="tier-subtext"><i>Never Gonna Run Around And Desert You</i></p>
+            <h3 class="pricing">$9999</h3>
             <p class="tier-description">For the hardcore fans of RA-dQw4, pre-installed with software that will tell a lie and hurt you as you complete the course of a relationship, breaking up with the RA-dQw4 and prepare for new love with another one of our products</p>
         </div>
     </section>
 
-    <form>
+    <form class="anchor" id="order-form">
+        <h2 class="form-title">Order form:</h2>
         <div class="form-question">
             <label for="customer-name">Full Name:</label>
-            <input type="text" id="customer-name" name="customer-name" required>
+            <input type="text" id="customer-name" name="customer-name" class="block-input" placeholder="John Doe" required>
         </div>
         <div class="form-question">
             <label for="customer-email">E-mail:</label>
-            <input type="email" id="customer-email" name="customer-email" required>
+            <input type="email" id="customer-email" name="customer-email" class="block-input" placeholder="JohnDoe@email.com" required>
         </div>
         <div class="form-question">
             <label for="customer-phone">Phone Number <span class="assist-text">(Optional)</span>:</label>
-            <input type="tel" id="customer-phone" name="customer-phone">
+            <input type="tel" id="customer-phone" name="customer-phone" class="block-input" placeholder="123-456-7890">
         </div>
         <div class="form-question">
             <label for="order-tier">Tier:</label>
-            <select id="order-tier" name="order-tier" required>
-                <option value="">--Please select a tier--</option>
+            <select id="order-tier" name="order-tier" class="block-input" required>
+                <option value="" disabled>--Please select a tier--</option>
                 <option value="bronze-tier">Bronze Tier</option>
                 <option value="silver-tier">Silver Tier</option>
                 <option value="gold-tier">Gold Tier</option>
@@ -127,7 +128,7 @@
         </div>
         <div class="form-question">
             <label for="order-specifications">Any special instructions for the order?</label>
-            <textarea id="order-specifications" name="order-specifications" rows="5" cols="100%" placeholder="Type specifications here..."></textarea>
+            <textarea id="order-specifications" name="order-specifications" rows="5" cols="75" placeholder="Type specifications here..." class="block-input"></textarea>
         </div>
         <div class="status-confirmation">
             <div class="confirmation-child">
@@ -147,19 +148,22 @@
 
 
 <!--idk where to put the fCC/TOP footer. maybe under the project page but above the main footer, or maybe within the main footer under it in small text-->
+
     <footer>
         <ul>
             <li>
-                <a href="">Free Cookies</a>
+                <a class="bottom-links-1" href="">Free Cookies</a>
             </li>
             <li>
-                <a href="">No Soliciting</a>
+                <a class="bottom-links-1" href="">No Soliciting</a>
             </li>
             <li>
-                <a href="">Bathroom</a>
+                <a class="bottom-links-1" href="">Bathroom</a>
             </li>
         </ul>
-        <p>&copy;2021, Pleasedon'tstrikemeSonyMusic</p>
+        <p class="footer-text">Webpage created by <a href="https://github.com/meiousei9" class="bottom-links" target=_blank>meiousei9</a> as part of <a href="https://freecodecamp.org" class="bottom-links" target=_blank>freeCodeCamp</a>'s Responsive Web Design course, and <a href="https://theodinproject.com" class="bottom-links" target=_blank>The Odin Project</a> at large.
+        <br><a href=https://github.com/meiousei9/fcc-rwd-project-form class="bottom-links" class="bottom-links" target=_blank>See the code for this webpage</a>.</p> 
+        <p class="copyright"><small>&copy;2021, Pleasedon'tstrikemeSonyMusic</small></p>
     </footer>
 </body>
 </html>
