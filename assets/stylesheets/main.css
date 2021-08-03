@@ -58,6 +58,13 @@ html {
 }
 
 /****************************************
+    iphone keyboard trickery
+*****************************************/
+main {
+	position: relative;
+}
+
+/****************************************
     Boxes and Colors
 *****************************************/
 
@@ -139,8 +146,6 @@ p#the {
 }
 
 #chevron {
-	position: absolute;
-	top: 90%;
 	color: #00588b;
 	width: 100%;
 	left: 0px;
