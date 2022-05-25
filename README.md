@@ -1,4 +1,4 @@
-see a demo at: https://meiousei9.github.io/fcc-rwd-project-product/
+see a demo at: https://meiou9sei.github.io/fcc-rwd-project-product/
 
 freeCodeCamp responsive web design course project "Product Landing Page"
 
